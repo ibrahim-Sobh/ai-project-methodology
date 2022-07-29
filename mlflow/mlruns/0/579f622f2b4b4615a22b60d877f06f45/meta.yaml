@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Documents/ai-project-methodology/mlflow/mlruns/0/579f622f2b4b4615a22b60d877f06f45/artifacts
+end_time: 1659119897162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 579f622f2b4b4615a22b60d877f06f45
+run_uuid: 579f622f2b4b4615a22b60d877f06f45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1659119893654
+status: 3
+tags: []
+user_id: Admin
