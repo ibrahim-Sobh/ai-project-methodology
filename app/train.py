@@ -5,13 +5,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,confusion_matrix,f1_score,accuracy_score,confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 
-from app.preprocess import data_preprocessing
 from joblib import dump
+
+from preprocess import data_preprocessing
+
 
 MODEL_PATH = "../../models/clf.joblib"
 
 def data_split_test_train(data: pd.DataFrame,
-                                     test_size: int = 0.2)-> pd.DataFrame:
+                                    test_size: int = 0.2)-> pd.DataFrame:
     # Split Train / Test
     X = data.loc[:, data.columns != 'Response']
     y = data.Response
